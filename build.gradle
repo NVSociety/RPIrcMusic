@@ -1,0 +1,19 @@
+group 'org.novomundus'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.pircbotx:pircbotx:2.1'
+    compile 'org.yaml:snakeyaml:1.18'
+
+}
+
