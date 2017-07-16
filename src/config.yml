@@ -1,5 +1,0 @@
-server0:
-  server: "irc.novomundus.tk"
-  port: 6667
-  nickname: "MusIK"
-  realname: "RPIrcMusic"
